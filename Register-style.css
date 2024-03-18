@@ -1,0 +1,29 @@
+form.row{
+    background-color:#76ABAE;
+    border-radius: 50px;
+    margin-top: 130px;
+    width :50%;
+    padding: 30px;
+}
+label.form-label{
+    color: #31363F;
+} .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:991px){
+    form{
+        width:68% !important;
+    }
+}
+@media only screen and (max-width:767px){
+    form{
+        width:75% !important;
+    }
+}
+@media only screen and (max-width:567px){
+    form{
+        width:100% !important;
+    }
+}

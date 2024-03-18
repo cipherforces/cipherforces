@@ -1,0 +1,26 @@
+form{
+    width: 30%;
+    margin-top: 160px;
+    background-color: #76ABAE;
+    border-radius: 20px;
+    padding: 50px;
+}
+.btn-dark{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+@media only screen and (max-width:1200px) and (min-width:680px){
+    form{
+        width: 55% !important;
+    }
+}
+@media only screen and (max-width:680px){
+    form{
+        width: 85% !important;
+    }
+}
