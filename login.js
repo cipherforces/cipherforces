@@ -19,7 +19,9 @@ loginForm.addEventListener('submit', (event) => {
     })
         .then(response => response.text())
         .then(responseText => {
+            console.log(response);
             if (responseText === 'done') {
+
                 // Redirection
                 window.location.href = '/index';
             }
